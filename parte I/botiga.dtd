@@ -1,0 +1,10 @@
+<!ELEMENT botiga (producte+)>
+<!ELEMENT producte (nom,descripcio,preu,categoria,disponibilitat,imatge)>
+<!ATTLIST producte codi ID #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT descripcio (#PCDATA)>
+<!ELEMENT disponibilitat (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+<!ATTLIST preu moneda CDATA #REQUIRED>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT imatge (#PCDATA)>

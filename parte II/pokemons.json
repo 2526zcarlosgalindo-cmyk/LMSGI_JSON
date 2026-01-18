@@ -1,0 +1,116 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "name": "Ralts",
+      "type": ["Psíquico", "Hada"],
+      "peso": {
+        "valor": 6.6,
+        "unidad": "kg"
+      },
+      "altura": {
+        "valor": 0.4,
+        "unidad": "m"
+      },
+      "estadisticas": {
+        "velocidad": 4,
+        "fortaleza": 1,
+        "precision": 5,
+        "resistencia": 4,
+        "salto": 3
+      },
+      "movimientos": [
+        {
+          "nombre": "Confusión",
+          "descripcion": "Ataque psíquico que puede confundir.",
+          "potencia": 50,
+          "contacto": false
+        },
+        {
+          "nombre": "Beso Drenaje",
+          "descripcion": "Restaura PS al usuario.",
+          "potencia": 50,
+          "contacto": true
+        }
+      ],
+      "imagen": "https://www.wikidex.net/wiki/Archivo:Ralts.png",
+      "evoluciones": [
+        {
+          "evoluciona_a_id": 2,
+          "nivel": 20
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Kirlia",
+      "type": ["Psíquico", "Hada"],
+      "peso": {
+        "valor": 20.2,
+        "unidad": "kg"
+      },
+      "altura": {
+        "valor": 0.8,
+        "unidad": "m"
+      },
+      "estadisticas": {
+        "velocidad": 5,
+        "fortaleza": 2,
+        "precision": 5,
+        "resistencia": 4,
+        "salto": 4
+      },
+      "movimientos": [
+        {
+          "nombre": "Psíquico",
+          "descripcion": "Fuerte ataque mental.",
+          "potencia": 90,
+          "contacto": false
+        }
+      ],
+      "imagen": "https://www.wikidex.net/wiki/Archivo:Kirlia.png",
+      "evoluciones": [
+        {
+          "evoluciona_a_id": 3,
+          "nivel": 30
+        }
+      ]
+    },
+     {
+     "id": 3,
+     "name": "Gardevoir",
+     "type": ["Psíquico", "Hada"],
+     "peso": {
+        "valor": 48.4,
+        "unidad": "kg"
+     },
+     "altura": {
+        "valor": 1.6,
+        "unidad": "m"
+     },
+     "estadisticas": {
+        "velocidad": 4,
+        "fortaleza": 3,
+        "precision": 5,
+        "resistencia": 4,
+        "salto": 3
+     },
+     "movimientos": [
+        {
+        "nombre": "Fuerza Lunar",
+        "descripcion": "Utiliza el poder de la luna para atacar.",
+        "potencia": 95,
+        "contacto": false
+        },
+        {
+        "nombre": "Puño Incremento",
+        "descripcion": "Ataque físico que sube el ataque del usuario.",
+        "potencia": 40,
+        "contacto": true
+        }
+     ],
+     "imagen": "https://www.wikidex.net/wiki/Archivo:Gardevoir.png",
+     "evoluciones": [] 
+    }
+  ]
+}

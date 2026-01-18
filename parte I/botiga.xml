@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE botiga SYSTEM "bobtiga.dtd">
+<botiga>
+    <producte codi='prod01'>
+        <nom>Monitor asix 4k</nom>
+        <descripcio>Monitor asix 4k de 27 polzades</descripcio>
+        <preu moneda="USD">399.99</preu>
+        <categoria>Monitors</categoria>
+        <disponibilitat>En estoc</disponibilitat>
+        <imatge>https://www.pccomponentes.com/pccom-elysium-monitor-gaming-236-va-fhd-180hz-adaptive-sync-curva</imatge>
+    </producte>
+    <producte codi='prod02'>
+        <nom>Portàtil gaming RTX 4060</nom>
+        <descripcio>Portàtil gaming amb targeta gràfica RTX 4060 i processador Intel i7</descripcio>
+        <preu moneda="PEN">1499.99</preu>
+        <categoria>Portàtils</categoria>
+        <disponibilitat>En estoc</disponibilitat>
+        <imatge>https://www.pccomponentes.com/portatil-pccom-revolt-5070-intel-core-i7-14650hx-16-qhd-32gb-1tb?refurbished</imatge>
+    </producte>
+</botiga>
